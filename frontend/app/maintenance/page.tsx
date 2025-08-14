@@ -296,7 +296,7 @@ export default function MaintenancePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-1.5 flex-shrink-0"></div>
-                  Payment due on receipt; >7 days late → work pauses until paid
+                  Payment due on receipt; more than 4 days late → work pauses until paid
                 </li>
               </ul>
             </div>
