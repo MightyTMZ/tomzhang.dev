@@ -57,7 +57,7 @@ const faqs: FAQ[] = [
   },
   {
     question: "How much will my project cost?",
-    answer: "Project costs vary based on complexity and scope. I use a transparent 4-step process: break down tasks, estimate hours, multiply by my hourly rate ($65), and add any extras. Simple projects might cost $500-2000, while complex applications can range $5000-15000+."
+    answer: "Project costs vary based on complexity and scope. I use a transparent 4-step process: break down tasks, estimate hours, multiply by my hourly rate ($65), and add any extras. Simple projects might cost $500-2000, while complex applications can range $5000-15000+. All rates are in USD"
   },
   {
     question: "Do you offer maintenance after the project is complete?",

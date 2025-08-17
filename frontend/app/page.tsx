@@ -1,6 +1,7 @@
-import { Mail } from 'lucide-react';
-import ServicesGrid from '@/components/services-grid';
-import FAQSection from '@/components/faq-section';
+import { Mail } from "lucide-react";
+import ServicesGrid from "@/components/services-grid";
+import FAQSection from "@/components/faq-section";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,8 +11,8 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <h1 className="text-xl font-semibold text-gray-900">Tom Zhang</h1>
-            <a 
-              href="mailto:tom@example.com" 
+            <a
+              href="mailto:tom.zhang.career@hotmail.com"
               className="inline-flex items-center gap-2 bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-200"
             >
               <Mail className="w-4 h-4" />
@@ -28,17 +29,25 @@ export default function Home() {
             Hello, I'm Tom!
           </h2>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Web & app development, bots, and automation—custom solutions tailored for you.
+            Web & app development, bots, and automation—custom solutions
+            tailored for you.
           </p>
           <div className="mb-12">
-            <a 
-              href="https://www.tomzhang.info/" 
-              target="_blank" 
+            <Link
+              href="https://www.tomzhang.info/"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 transition-colors duration-200 text-sm underline decoration-1 underline-offset-4"
             >
               Learn more about me
-            </a>
+            </Link>
+            <br />
+            {/* <Link
+              href="mailto:tom.zhang.career@hotmail.com"
+              className="text-gray-500 hover:text-gray-700 transition-colors duration-200 text-sm underline decoration-1 underline-offset-4"
+            >
+              Contact me
+            </Link> */}
           </div>
 
           {/* Services Grid */}
@@ -58,13 +67,13 @@ export default function Home() {
           <p className="text-gray-600 mb-8">
             Let's discuss your ideas and bring them to life
           </p>
-          <a 
-            href="mailto:tom@example.com" 
+          <Link
+            href="mailto:tom.zhang.career@hotmail.com"
             className="inline-flex items-center gap-2 bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors duration-200 font-medium"
           >
             <Mail className="w-4 h-4" />
             Contact me
-          </a>
+          </Link>
         </div>
       </footer>
     </div>
