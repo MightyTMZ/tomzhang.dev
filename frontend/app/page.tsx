@@ -32,6 +32,11 @@ export default function Home() {
             Web & app development, bots, and automation—custom solutions
             tailored for you.
           </p>
+          <p className="text-sm text-gray-400 mt-8 max-w-2xl mx-auto leading-relaxed">
+            <strong>Disclaimer: </strong>This is independent freelance work and
+            is not affiliated with or reflective of my employer(s).
+          </p>
+
           <div className="mb-12">
             <Link
               href="https://www.tomzhang.info/"
