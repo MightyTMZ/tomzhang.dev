@@ -1,0 +1,1 @@
+export const clientContract = "https://docs.google.com/document/d/1QZwvc6zni6hrACIcr7GxdPAWZbXTEOY3wr7CNqz-0xQ/edit?usp=sharing"
